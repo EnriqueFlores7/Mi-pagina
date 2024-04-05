@@ -1,0 +1,73 @@
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del menú de navegación */
+.menu-navegacion {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu-navegacion a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu-navegacion a:hover, .menu-navegacion a:focus {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Limpiar flotantes */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Estilos adicionales para tu tabla y otros elementos si es necesario */
